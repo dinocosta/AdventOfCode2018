@@ -4,7 +4,7 @@ This repository contains solutions for the [Advent Of Code 2018](https://advento
 
 ## Structure
 
-For each you have four files:
+For each day you have four files:
 
 * The README which contains the problems for both part one and part two for the specific day
 * The input file
