@@ -1,5 +1,5 @@
 result =
-  "1_1_input.txt"
+  "1.input.txt"
   |> File.stream!()
   |> Stream.map(&String.trim/1)
   |> Stream.map(&String.to_integer/1)

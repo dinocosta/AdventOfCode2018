@@ -11,7 +11,7 @@ defmodule ChronalCalibration do
 end
 
 result =
-  "1_1_input.txt"
+  "1.input.txt"
   |> File.stream!()
   |> Stream.map(&String.trim/1)
   |> Enum.map(&String.to_integer/1)
